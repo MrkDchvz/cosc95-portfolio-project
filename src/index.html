@@ -7,54 +7,118 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plaster&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
   </head>
-  <body class="font-inter font-light bg-slate-950 text-white">
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+  <body class="font-main font-light bg-custom-main text-custom-accent">
     <!-- Main Container -->
-    <div class="mx-50">
+    <div class="main-container">
+      <div
+        class="bg-cover bg-no-repeat bg-center"
+        style="background-image: url(/assets/land.jpg)"
+      >
+        <nav class="flex justify-between items-center py-20 px-40">
+          <a href="index.html" class="font-logo text-2xl"> Mrkdchvz </a>
+          <ul class="flex text-3xl gap-5">
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="challenges.html">Challenges</a></li>
+            <li><a href="future.html">Future</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+
+        <section class="hero hero--1 text-7xl">
+          <p class="reveal-type">
+            Hi there! I’m Mark Adrian Dechavez, a junior university student
+            who’s been bashing his head just to learn programming for the past 3
+            years.
+          </p>
+        </section>
+      </div>
       <!-- Navigation Bar -->
-      <nav class="flex justify-between items-center py-30">
-        <a href="index.html"
-          ><img
-            src="/assets/logo.png"
-            alt="logo icon"
-            class="object-contain w-9"
-        /></a>
-        <ul class="flex text-3xl gap-5">
-          <li><a href=""></a>About</li>
-          <li><a href=""></a>Skills</li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Challenges</a></li>
-          <li><a href="">Future</a></li>
-          <li><a href="">Resume</a></li>
-        </ul>
-      </nav>
 
       <!-- Main Content -->
-      <section class="mt-30 text-7xl">
-        <p class="h-dvh">
-          Hi there! I’m Mark Adrian Dechavez, a junior university student who’s
-          been bashing his head just to learn programming for the past 3 years.
-        </p>
+      <section class="text-7xl bg-custom-accent text-custom-main">
+        <section class="hero hero--2">
+          <p class="reveal-type">
+            Being a computer science student helped me develop my interests such
+            as learning languages and inventing barely edible dishes with
+            minimal ingridients.
+          </p>
+        </section>
 
-        <p class="h-dvh">
-          Being a computer science student helped me develop my interests such
-          as learning Japanese and inventing barely edible dishes with minimal
-          ingridients.
-        </p>
-
-        <p class="h-dvh">
-          In such a young age, my parents taught me values that enriched my life
-          and being the lone tech sorcerer in a clan who thinks "Java" is
-          coffee, I’ve become the family's unofficial Computer Technician.
-        </p>
-
-        <p class="mb-20"></p>
+        <section class="hero hero--3">
+          <p class="reveal-type">
+            In such a young age, my parents taught me values that enriched my
+            life and being the lone tech sorcerer in a clan who thinks "Java" is
+            coffee, I’ve become the family's unofficial Computer Technician.
+          </p>
+        </section>
       </section>
     </div>
+    <footer
+      class="footer sm:footer-horizontal bg-custom-accent text-custom-main p-10"
+    >
+      <aside>
+        <a href="index.html" class="font-logo text-2xl"> Mrkdchvz </a>
+        <p>Mark Adrian Dechavez</p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Social</h6>
+        <div class="grid grid-flow-col gap-4">
+          <a href="https://x.com/MrkDchvz">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+              ></path>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@MarkDechavz">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+              ></path>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/MrkDchvz">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current"
+            >
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <!-- Minified UMD bundle -->
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script type="module" src="/src/scroll.js"></script>
+
+    <script type="module" src="/src/script.js"></script>
   </body>
 </html>

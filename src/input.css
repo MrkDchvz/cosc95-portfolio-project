@@ -1,5 +1,21 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 @theme {
   --font-main: "Manrope", sans-serif;
+  --font-logo: "Plaster", system-ui;
+  --color-custom-main: #eeeeee;
+  --color-custom-accent: #151515;
+}
+
+.hero {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  text-wrap: balance;
+  padding: 0 clamp(4rem, 12vw, 20rem);
+}
+
+.hero--2 {
+  background-color: #151515;
 }

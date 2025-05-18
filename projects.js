@@ -31,7 +31,7 @@ projectList.forEach((t) => {
       start: "top 80%",
       end: "top 40%",
       scrub: true,
-      markers: true,
+      markers: false,
     },
     opacity: 0,
     x: n,
